@@ -17,8 +17,13 @@ function handleFiles(event) {
       card.innerHTML = `
         <div class="file-header">${file.name}</div>
         <div class="file-info">Jumlah kontak: <b>${count}</b></div>
-        <input type="text" placeholder="Nama CTC (opsional)" class="ctcName">
-        <input type="text" placeholder="Nama File (opsional)" class="fileName">
+
+        <label class="label">Nama Kontak (CTC)</label>
+        <input type="text" placeholder="Nama kontak (opsional)" class="ctcName">
+
+        <label class="label">Nama File</label>
+        <input type="text" placeholder="Nama file (opsional)" class="fileName">
+
         <textarea class="numbersBox">${numbers.join("\n")}</textarea>
         <button class="downloadBtn">Download VCF</button>
       `;
