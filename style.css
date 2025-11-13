@@ -52,12 +52,19 @@ input[type="file"] {
   margin-bottom: 10px;
 }
 
+.label {
+  font-weight: 600;
+  margin-top: 10px;
+  display: block;
+  color: #2d3436;
+}
+
 input[type="text"] {
   padding: 8px;
-  margin-right: 8px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  width: calc(50% - 10px);
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 textarea {
